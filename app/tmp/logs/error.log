@@ -1,0 +1,544 @@
+2020-05-07 09:34:10 Error: [MissingControllerException] Controller class SampleController could not be found.
+Exception Attributes: array (
+  'class' => 'SampleController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/sample/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-07 09:37:26 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 10:21:54 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 11:42:47 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 13:44:47 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 13:45:01 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 13:56:09 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 13:58:56 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 14:08:07 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 14:56:37 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 15:44:54 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 15:44:58 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 16:05:11 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 16:08:06 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 16:08:17 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(3572): Model->setSource('tasks')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1368): Model->getDataSource()
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1460): Model->schema()
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1447): Model->hasField('title', false)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(888): Model->hasField(Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-07 16:35:04 Error: [MissingViewException] View file "C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\View\Tasks\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Apache24\\htdocs\\reader_m\\0507\\cakephp-2.5.8\\app\\View\\Tasks\\index.ctp',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\View\View.php(470): View->_getViewFileName('index')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(959): View->render('index', NULL)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php(10): Controller->render('index')
+#3 [internal function]: TasksController->index()
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2020-05-07 16:46:50 Error: [MissingViewException] View file "C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\View\Tasks\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Apache24\\htdocs\\reader_m\\0507\\cakephp-2.5.8\\app\\View\\Tasks\\index.ctp',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\View\View.php(470): View->_getViewFileName('index')
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(959): View->render('index', NULL)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php(10): Controller->render('index')
+#3 [internal function]: TasksController->index()
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2020-05-07 16:47:43 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php, line 5]
+2020-05-07 16:47:43 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 5, Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Apache24\\htd...', 5, Array)
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2020-05-07 16:48:18 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php, line 5]
+2020-05-07 16:48:18 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 5, Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Apache24\\htd...', 5, Array)
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2020-05-08 08:56:58 Error: Fatal Error (4): syntax error, unexpected ''/Tasks/done/'' (T_CONSTANT_ENCAPSED_STRING) in [C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\View\Tasks\index.ctp, line 25]
+2020-05-08 08:56:58 Error: [FatalErrorException] syntax error, unexpected ''/Tasks/done/'' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 25, Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Apache24\\htd...', 25, Array)
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2020-05-08 09:25:05 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php, line 32]
+2020-05-08 09:25:05 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 32, Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Apache24\\htd...', 32, Array)
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2020-05-08 09:25:46 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php, line 32]
+2020-05-08 09:25:46 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 32, Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Apache24\\htd...', 32, Array)
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2020-05-08 09:26:33 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php, line 32]
+2020-05-08 09:26:33 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 32, Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Apache24\\htd...', 32, Array)
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2020-05-08 09:28:35 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `sa...', Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(1010): DboSource->execute('INSERT INTO `sa...')
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1855): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php(36): Model->save(Array)
+#5 [internal function]: TasksController->create()
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2020-05-08 09:30:06 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `sa...', Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(1010): DboSource->execute('INSERT INTO `sa...')
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1855): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php(36): Model->save(Array)
+#5 [internal function]: TasksController->create()
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2020-05-08 09:36:23 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `sa...', Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(1010): DboSource->execute('INSERT INTO `sa...')
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1855): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php(36): Model->save(Array)
+#5 [internal function]: TasksController->create()
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2020-05-08 10:08:05 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `sa...', Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(1010): DboSource->execute('INSERT INTO `sa...')
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1855): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php(36): Model->save(Array)
+#5 [internal function]: TasksController->create()
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2020-05-08 10:17:21 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `sa...', Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(1010): DboSource->execute('INSERT INTO `sa...')
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1855): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php(36): Model->save(Array)
+#5 [internal function]: TasksController->create()
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2020-05-08 10:47:58 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `sa...', Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(1010): DboSource->execute('INSERT INTO `sa...')
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1855): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php(36): Model->save(Array)
+#5 [internal function]: TasksController->create()
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2020-05-08 12:56:09 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `sa...', Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(1010): DboSource->execute('INSERT INTO `sa...')
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1855): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php(36): Model->save(Array)
+#5 [internal function]: TasksController->create()
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2020-05-08 12:56:25 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `sa...', Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Datasource\DboSource.php(1010): DboSource->execute('INSERT INTO `sa...')
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Model\Model.php(1855): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php(36): Model->save(Array)
+#5 [internal function]: TasksController->create()
+#6 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2020-05-08 13:06:38 Error: [MissingActionException] Action Tasks::create]() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => 'create]',
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create]
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#5 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-05-08 14:24:40 Error: Fatal Error (4): syntax error, unexpected 'maxLength' (T_STRING), expecting ')' in [C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Model\Task.php, line 7]
+2020-05-08 14:24:40 Error: [FatalErrorException] syntax error, unexpected 'maxLength' (T_STRING), expecting ')'
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 7, Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Apache24\\htd...', 7, Array)
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2020-05-08 15:08:48 Error: Fatal Error (4): syntax error, unexpected 'NoteController' (T_STRING) in [C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\NotesController.php, line 3]
+2020-05-08 15:08:48 Error: [FatalErrorException] syntax error, unexpected 'NoteController' (T_STRING)
+Request URL: /reader_m/0507/cakephp-2.5.8/notes/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 3, Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Apache24\\htd...', 3, Array)
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2020-05-08 15:09:10 Error: [MissingControllerException] Controller class NotesController could not be found.
+Exception Attributes: array (
+  'class' => 'NotesController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0507/cakephp-2.5.8/notes/create
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-08 16:07:40 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\app\Controller\TasksController.php, line 78]
+2020-05-08 16:07:40 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /reader_m/0507/cakephp-2.5.8/Tasks/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 78)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Apache24\\htd...', 78, Array)
+#2 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Apache24\\htd...', 78, Array)
+#3 C:\Apache24\htdocs\reader_m\0507\cakephp-2.5.8\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
